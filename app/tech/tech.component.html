@@ -1,0 +1,12 @@
+<div class="container-fluid mt-3">
+    <div class="row mt-3">
+        <div class="col-lg-3 mt-3 mb-3" *ngFor="let item of Datatech">
+            <div class="box">
+                <img src="{{item.urlToImage}}" alt="">
+                <h5>{{item.title}}</h5>
+                
+                <a class="btn btn-dark btn-sm" href="{{item.url}}" target="_blank">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
